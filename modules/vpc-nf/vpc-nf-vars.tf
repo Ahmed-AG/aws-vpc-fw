@@ -8,7 +8,7 @@ variable "environment_tag" {
 variable "key_name" {
   description = "instances key name"
   type = string
-  default = "N-Verginia"
+  default = "N-Vkey"
 }
 
 #vpc variables
