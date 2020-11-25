@@ -2,7 +2,7 @@
 
 This is a sample Terraform code to deploy an AWS VPC with AWS Network Firewall
 
-## Use
+## Use:
 1- Set the parameters in:
 
 *aws-vpc-fw/modules/vpc-nf/vpc-nf-vars.tf* 
@@ -13,7 +13,7 @@ This is a sample Terraform code to deploy an AWS VPC with AWS Network Firewall
 
 
 
-## Background information
+## Background information:
 For information on how to design and implement AWS Network Firewall:
 
 https://www.sans.org/blog/aws-network-firewall-more-than-just-layer-4/
