@@ -9,9 +9,9 @@ This is a sample Terraform code to deploy an AWS VPC with AWS Network Firewall
 
 2- run: 
 
-*terraform init
+*terraform init*
 
-terraform apply*
+*terraform apply*
 
 
 
