@@ -310,3 +310,5 @@ resource "null_resource" "add_route_vpc" {
     command = "aws ec2 create-route --region us-east-1 --route-table-id ${aws_route_table.vpc_rtb.id} --destination-cidr-block 10.10.1.0/24 --vpc-endpoint-id ${data.local_file.vpce_id.content} >/tmp/route_vpc.txt"
   } 
 }
+
+}
